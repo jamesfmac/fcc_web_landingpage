@@ -9,18 +9,83 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="header-img-holder">
-            <img id="header-img" class="header-img" src="assets/pplogo-transparent.png" />
+    <div class='atf-background'>
+        <header id="header">
+            <div class="header-img-holder">
+                <img id="header-img" class="header-img" src="assets/pplogo-transparent.png" />
+            </div>
+            <nav id="nav-bar" class="nav-container">
+                <a href="#features-anchor" class="nav-link">Features</a>
+                <a href="#pricing-anchor" class="nav-link">Pricing</a>
+                <button href="#join" class="nav-link btn-signup" type="button">Sign Up</button>
+            </nav>
+
+        </header>
+        <div class="page-content">
+
+            <div class="cta">
+                <h2 class="cta-header">The new, new internet</h2>
+                <h3 class="cta-subheader">Welcome to the web you never knew you wanted </h3>
+
+                <div id='join'>Sign up for the waiting list below</div>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <div class="form-group">
+
+                        <input name='email' id="email" type="email" placeholder="me@website.com">
+                    </div>
+                    <input type="submit" id="submit" value="Join the list">
+
+
+                </form>
+            </div>
         </div>
-        <div id="=nav-bar" class="nav-container">
-            <a href="" class="nav-link">Features</a>
-            <a href="" class="nav-link">Pricing</a>
-            <button class="nav-link btn-signup">Sign Up</button>
+    </div>
+
+
+
+    <div class="features-background">
+        <div id='features-anchor' class="features-anchor"></div>
+        <div id="features">
+
+            <div id="video-conainer">
+                <iframe id="video" src="https://www.youtube.com/embed/dWOGbu5BcT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="features-list">
+                <ul>
+                    <li>
+                        Faster: Using our network of computers and smartphones, we can divide your jobs among thousands of nodes to scale.
+                    </li>
+                    <li>
+                        Cheaper: Because our network is autonomous, our operation costs are minimal, allowing us to offer the most affordable services
+                        on the market.
+
+                    </li>
+                    <li>
+                        More Secure: As our nodes are distributed across thousands of devices, we’re not prone to a single point of failure.
+                    </li>
+
+                </ul>
+
+
+            </div>
+
         </div>
 
-    </header>
+    </div>
+    <div class="pricing-background">
+        <div id='pricing-anchor' class="features-anchor"></div>
+        <div id="pricing">
 
+        </div>
+
+
+    </div>
+    </div>
+
+
+    <footer> Copywrite JM 2018</footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
